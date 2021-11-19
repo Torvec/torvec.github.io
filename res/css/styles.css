@@ -1,11 +1,28 @@
 main, body {
-    font-size: 16px;
-    background-color: darkkhaki;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    width: 80%;
-    margin: 0 auto;
+
+}
+
+header {
+    padding: 2.5rem 5.0rem;
+    background-color: olivedrab;
+}
+
+section {
+    padding: 2.5rem 5.0rem;
+    min-height: 400px;
+}
+
+#codecademy_sect {
+    background-color: hsl(0, 0%, 80%);
+}
+
+#other_sect {
+    background-color: hsl(0, 0%, 70%);
 }
 
 h1 {
@@ -20,4 +37,10 @@ h2 {
 
 p {
     font-size: 1.0rem;
+}
+
+footer {
+    padding: 2.5rem 5.0rem;
+    background-color: olivedrab;
+    text-align: center;
 }
